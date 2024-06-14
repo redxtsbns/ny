@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "build": "npm run build",
+    "build": "echo \"No need\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
