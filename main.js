@@ -38,6 +38,7 @@ app.use('/script', (req, res) => {
                                                       
   } else {
     res.send("Key is Invalid!")
+  }
 })
 app.listen(5000, () => {
   console.log("Running!!")
