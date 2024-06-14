@@ -27,7 +27,7 @@ app.use('/send', (req, res) => {
     fs.writeFile('comments.json', JSON.stringify(data, null, 2), (err) => {
       if (err) return res.status(200).send("Failed to send")
       res.send("Success Send!")
-    }
+    })
 })
 app.use('/script', (req, res) => {
   const key = req.query.key
